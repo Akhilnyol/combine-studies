@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>FAQ</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <style type="text/css">
+      body{
+        background-color: rgb(44, 78, 108); ;
+        padding-top: 20px;
+        font-family: monospace;
+      }
+      .faq-wrapper{
+          box-shadow: black;
+          border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 5px 10px;
+          
+         
+      }
+      .header{
+        border-radius: 20px 20px 0px 0px;
+        padding: 10px 0px;
+        background: black;
+        color: #fff;
+        width: 100%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+      }
+      .faq-item{
+        margin-bottom: 40px;
+        margin-top: 40px;
+      }
+      .faq-body{
+        display: none;
+        margin-top: 30px;
+      }
+      .faq-wrapper{
+        width: 75%;
+        margin: 0 auto;
+        background-color: rgba(176, 218, 255, 0.886);
+      
+      }
+      .faq-inner{
+        padding: 30px;
+        
+      }
+      .faq-plus{
+        float: right;
+        font-size: 1.4em;
+        line-height: 1em;
+        cursor: pointer;
+      }
+      hr{
+        background-color: #9b9b9b;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="faq-wrapper">
+          <div class="header">
+            <h1>FAQs</h1>
+          </div>
+          <div class="faq-inner">
+            <div class="faq-item">
+              <h3>
+               What is LMS?
+                <span class="faq-plus">&plus;</span>
+              </h3>
+              <div class="faq-body">
+                A Learning Management System is an effective tool that is created and designed to establish administration, documentation, reporting,
+                tracking, and deliver online learning. It’s also known as “e-learning” because the software that is used will provide a virtual 
+                classroom-like environment for training organization employee and trainers alike.
+              </div>
+            </div>
+            <hr>
+            <div class="faq-item">
+              <h3>
+                Who can access it?
+                <span class="faq-plus">&plus;</span>
+              </h3>
+              <div class="faq-body">
+              Everyone who wants to learn can access it.
+              </div>
+            </div>
+            <hr>
+            <div class="faq-item">
+              <h3>
+                How much it cost?
+                <span class="faq-plus">&plus;</span>
+              </h3>
+              <div class="faq-body">
+                It's totally free , anybody who wants to learn just need to create an account.
+              </div>
+            </div>
+            <hr>
+            <div class="faq-item">
+              <h3>
+                Did i get certificate after completing a course?
+                <span class="faq-plus">&plus;</span>
+              </h3>
+              <div class="faq-body">
+              No,we don't provide any certificate.
+              </div>
+            </div>
+            <hr>
+            <div class="faq-item">
+              <h3>
+                Can i request for additional courses to suit my training requirements?
+                <span class="faq-plus">&plus;</span>
+              </h3>
+              <div class="faq-body">
+                Absolutely. Please feel to contact us and share your requirements. We would be happy to work with you to provide any 
+                additionally features or functionality required.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(".faq-plus").on('click',function(){
+        $(this).parent().parent().find('.faq-body').slideToggle();
+      });
+    </script>
+  </body>
+
+</html>

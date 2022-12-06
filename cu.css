@@ -1,0 +1,178 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 8vw;
+    position: top;
+    background-color: white;
+    width: 100%;
+}
+
+nav img {
+    width: 70px;
+    cursor: pointer;
+}
+nav .navigation ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav .navigation ul li
+{
+list-style: none;
+margin-left: 30px;
+}
+nav .navigation ul li a{
+    text-decoration: none;
+    color: rgb(39, 39, 67);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+nav .navigation ul li a:hover{
+    color: rgb(207, 150, 93);
+}
+body {
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("cu.gif"); 
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;
+  
+    font-family: "Montserrat", sans-serif;
+   
+    color:black;
+    font-size: larger;
+
+  }
+  
+  * {
+    box-sizing: border-box;
+    font-family: "Sofia", sans-serif;
+  }
+  
+  /* Style inputs
+  input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  } */
+  
+
+  
+ 
+  h1{
+    text-align: center;
+    color: white;
+  }
+  
+  .column {
+    color: white;
+    float: top;
+    
+    /* background-color:rgb(255 255 255/18%); */
+    width:100%;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+  }
+  .bv{
+    width:auto;
+   margin:auto;
+   
+  }
+    
+input[type=text],input[type=email],input[type=tel]  {
+  
+    width:auto;
+    padding: 13px;
+  
+    background: #f1f1f1;
+    border-radius: 3px;
+  
+   
+  }
+
+  input[type=text]:focus, input[type=email]:focus,input[type=tel]:focus {
+    background-color:lightblue;
+    
+    /* font-size:120%; */
+    border-radius: 10px;
+    
+  }
+  textarea{
+    background: #f1f1f1;
+    border-radius: 3px;
+    margin-left: auto;
+    /* width: 25%; */
+    
+
+  }
+
+
+button {
+    background-color:green;
+    color: white;
+    padding: 5px 7px;
+    margin: 4px 2px;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 15%;
+    justify-content:center;
+    opacity:0.85;
+  }
+  button:hover {
+    opacity:1;
+    font-size: 115%;
+    background-color:brown;
+    
+  }
+  
+  /* Clear floats after the columns */
+  /* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+  img{
+    width: 100%;
+    height: auto;
+    
+}
+.bb{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  
+}
+/* .bv
+{
+  margin: auto;
+  justify-content: space-around;
+} */
+i{
+  color:white;
+  
+}
+.section{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  text-align:center;
+}
+
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }

@@ -1,0 +1,131 @@
+body {font-family: Arial, Helvetica, sans-serif;
+       background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("ccuu.jpeg");
+       
+       background-position: center;
+       background-attachment: fixed; 
+       height:100vh; 
+       background-repeat: no-repeat;
+       background-size: cover;
+       
+       
+     
+}
+* {box-sizing: border-box}
+.p{
+  
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password],input[type=email] {
+  width:fit-content;
+  
+  padding: 15px;
+  margin: 5px 0 22px 0;
+ 
+  border:#f44336;
+  background:white;
+  border-radius: 10px;
+  
+
+ 
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+  background-color:rgb(136, 234, 221);
+  
+  font-size:120%;
+  border-radius: 10px;
+  
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color:green;
+  display: block;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 4px;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  justify-content: space-between;
+  opacity:1;
+}
+
+button:hover {
+  opacity:1;
+  font-size: 120%;
+  background-color:darkgreen;
+  
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: orangered;
+}
+.cancelbtn:hover
+{
+  background-color:royalblue;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+/* .cancelbtn, .signupbtn {
+  float: left;
+  display: block;
+  width: 100%;
+  border: none;
+  /* background-color: #04AA6D; *
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  
+} */
+
+/* Add padding to container elements */
+.container {
+  box-sizing: content-box;
+  width:max-content;
+  margin: auto;
+ 
+  padding: 12px;
+  padding-bottom: 35px;  
+  background-color:rgba(51, 217, 255, 0.429);
+  color:rgb(8, 0, 0);
+ border-radius: 20px;
+ display: flex;
+ text-align: center;
+ align-items: center;
+ flex-wrap:wrap;
+
+ /* align-self: center; */
+ justify-content:center;
+}
+a:hover{
+  color: darkblue;
+  text-decoration: solid;
+  font-size: 120%;
+}
+.b
+{margin-left: 37%;
+   justify-content: space-around; 
+}
+img{
+  opacity:0.4;
+}
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 600px) {
+  .cancelbtn, .signupbtn,input[type=submit],input[type=password],input[type=passsword] {
+     width: 100%;
+     margin-top: 0%;
+  }
+}
